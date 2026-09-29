@@ -30,7 +30,8 @@ const Dashboard = () => {
       <main className="lg:ml-64">
 
         {/* Header */}
-        <header className="sticky top-0 z-30 flex h-20 items-center justify-between bg-teal-100  border-teal-700 px-6 backdrop-blur lg:px-8">
+        <header className="sticky top-0 z-30 flex h-20 items-center justify-between bg-teal-100  border-teal-700 px-8 backdrop-blur lg:px-8">
+          
 
           <div>
             <h2 className="text-xl font-bold text-slate-800">

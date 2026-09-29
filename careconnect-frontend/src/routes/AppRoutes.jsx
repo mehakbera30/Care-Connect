@@ -11,7 +11,14 @@ import Messages from "../Patient/Messages";
 import Reports from "../Patient/Reports";
 import Prescriptions from "../Patient/Prescriptions";
 import Settings from "../Patient/Settings";
-// import Appointments from "../Patient/Appointment";
+
+import DoctorDashboard from "../Doctor/Dashboard";
+import Patients from "../Doctor/Patients";    
+import PatientDetails from "../Doctor/PatientDetails";
+import DoctorAppointments from "../Doctor/Appointments";
+import DoctorReports from "../Doctor/Reports";
+import DoctorMessages from "../Doctor/Messages";
+import DoctorSettings from "../Doctor/Settings";
 
 const AppRoutes = () => {
   return (
@@ -28,6 +35,15 @@ const AppRoutes = () => {
       <Route path="/patient/reports" element={<Reports />} />
       <Route path="/patient/prescriptions" element={<Prescriptions />} />
       <Route path="/patient/settings" element={<Settings />} />
+
+      <Route path="/doctor/dashboard" element={<DoctorDashboard />} />
+      <Route path="/doctor/patients" element={<Patients />} />
+      <Route path="/doctor/patients/:id" element={<PatientDetails />}/>
+      <Route path="/doctor/appointments" element={<DoctorAppointments />} />
+      <Route path="/doctor/reports" element={<DoctorReports />} />
+      <Route path="/doctor/messages" element={<DoctorMessages />} />
+      <Route path="/doctor/settings" element={<DoctorSettings />} />
+
 
     </Routes>
   );

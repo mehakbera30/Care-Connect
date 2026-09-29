@@ -59,7 +59,7 @@ const Messages = () => {
       <main className="ml-64 flex-1">
 
         {/* Navbar */}
-        <header className="h-20 bg-gradient-to-r from-teal-50 via-white to-white border-b border-teal-100 px-8 flex items-center justify-between shadow-sm">
+        <header className="h-20 bg-gradient-to-rfrom-teal-100 bg-teal-100  border-teal-700 px-8 flex items-center justify-between shadow-sm">
 
           <div>
             <h2 className="text-2xl font-bold text-slate-800">
